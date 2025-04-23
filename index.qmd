@@ -1,6 +1,6 @@
 ---
 title: "Ricky Woznichak"
-subtitle: "Master's of Science Digital Marketing"
+subtitle: "Master's of Science in Digital Marketing"
 image: profile.jpg
 about: 
   template: trestles
