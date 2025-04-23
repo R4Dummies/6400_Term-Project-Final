@@ -10,11 +10,8 @@ website:
     left:
       - text: Home
         file: index.qmd
-      - Dashboard.qmd
-      - text: Shiny Apps
-        file: shiny-apps.qmd
-      - text: Shiny Live
-        file: shiny-live.qmd
+   
+       
       
 format:
   html:

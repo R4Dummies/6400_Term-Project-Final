@@ -1,0 +1,59 @@
+---
+title: "Ricky Woznichak"
+subtitle: "A Revealjs Presentation"
+author: "Ricky Woznichak"
+institute: "IBM 6400, Cal Poly Pomona"
+date: "today"
+
+format:
+  revealjs:
+    css: styles.css
+    embed-resources: true
+    includes:
+      in-header: orbitron.html
+    theme: serif
+    width: 1600
+    height: 900
+    footer: "It's Been A Journey"
+    transition: slide
+    transition-speed: default
+    incremental: true
+    toc: true
+    toc-depth: 10
+    slide-number: true
+    scrollable: true
+    smaller: true
+    code-fold: false
+    code-overflow: wrap
+    number-sections: false
+    number-depth: 5
+    highlight-style: github
+    logo: cpp-logo-small.png
+    title-slide-attributes:
+      data-background-color: "#85C1E9"
+      data-background-image: Sky.gif
+
+  html:
+    toc: true
+    toc-depth: 2
+    number-sections: true
+    css: styles.css
+    code-fold: true
+    code-tools: true
+    self-contained: true
+    highlight-style: github
+
+editor: visual
+
+execute:
+  echo: true
+  freeze: auto
+---
+
+::: Slide
+# Test
+
+## Test 2
+
+### Test 3
+::: 

@@ -26,5 +26,194 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "FinalRJS.html",
+    "href": "FinalRJS.html",
+    "title": "Summary Tables with gtsummary",
+    "section": "",
+    "text": "We can create a summary table and modify it for various statistical analyses using the {gtsummary} package.\n\n\n\nVersatile Output: Supports summary statistics, regression models, survival analysis, and more — all formatted beautifully.\nCustomizable: Easily change labels, statistics, and formatting without needing to manually tweak tables.\nPublication-Ready: Outputs clean, APA-style tables with minimal effort — ideal for reports, papers, and presentations.\nReproducibility: Tables are generated directly from your analysis pipeline, reducing the risk of transcription errors."
+  },
+  {
+    "objectID": "FinalRJS.html#why-gtsummary-matters",
+    "href": "FinalRJS.html#why-gtsummary-matters",
+    "title": "Summary Tables with gtsummary",
+    "section": "📦 Why {gtsummary} Matters",
+    "text": "📦 Why {gtsummary} Matters\n\nVersatile Output: Supports summary statistics, regression models, survival analysis, and more — all formatted beautifully.\nCustomizable: Easily change labels, statistics, and formatting without needing to manually tweak tables.\nPublication-Ready: Outputs clean, APA-style tables with minimal effort — ideal for reports, papers, and presentations.\nReproducibility: Tables are generated directly from your analysis pipeline, reducing the risk of transcription errors."
+  },
+  {
+    "objectID": "FinalRJS.html#how-it-can-help-us",
+    "href": "FinalRJS.html#how-it-can-help-us",
+    "title": "Summary Tables with gtsummary",
+    "section": "🎓📈 How It Can Help Us",
+    "text": "🎓📈 How It Can Help Us\n\nIn School:\n\nCreate polished tables for homework, theses, or presentations.\nSave time formatting — focus more on the analysis itself.\nImpress your professors with professional-grade outputs.\n\nIn Your Career:\n\nQuickly generate high-quality tables for client reports, internal documents, or academic publications.\nStreamline analysis workflows with reproducible and automated reporting.\nIntegrate with tools like Quarto, R Markdown, and Shiny apps for interactive or dynamic reporting."
+  },
+  {
+    "objectID": "FinalRJS.html#how-does-gtsummary-differ-from-gt-and-gtextras",
+    "href": "FinalRJS.html#how-does-gtsummary-differ-from-gt-and-gtextras",
+    "title": "Summary Tables with gtsummary",
+    "section": "How does gtsummary differ from gt and gtExtras?",
+    "text": "How does gtsummary differ from gt and gtExtras?"
+  },
+  {
+    "objectID": "FinalRJS.html#gt",
+    "href": "FinalRJS.html#gt",
+    "title": "Summary Tables with gtsummary",
+    "section": "gt",
+    "text": "gt\n\nPurpose: A core package for creating flexible and beautiful tables in R.\nStrength: Great for custom-designed tables from scratch, especially for presenting summary stats, formatted text, etc.\nUsage: You have to manually define your data transformations and table formatting.\nThink of it as: A powerful table engine, similar to ggplot2 but for tables."
+  },
+  {
+    "objectID": "FinalRJS.html#gtextras",
+    "href": "FinalRJS.html#gtextras",
+    "title": "Summary Tables with gtsummary",
+    "section": "gtExtras",
+    "text": "gtExtras\n\nPurpose: A set of helper functions that work on top of gt to make common formatting tasks easier.\nStrength: Adds shortcuts for enhancements like:\n\nHeatmaps\nSparklines\nFancy styling presets\n\nUsage: It extends gt and saves time on visual and layout improvements.\nThink of it as: Add-ons to style and beautify your gt tables quickly."
+  },
+  {
+    "objectID": "FinalRJS.html#gtsummary",
+    "href": "FinalRJS.html#gtsummary",
+    "title": "Summary Tables with gtsummary",
+    "section": "gtsummary",
+    "text": "gtsummary\n\nPurpose: Built specifically for statistical reporting and clinical-style summary tables.\nStrengths:\n\nAutomatically identifies variable types (continuous, categorical, dichotomous).\nBuilds “Table 1”-style summaries with a single line of code.\nEasily adds:\n\nP-values (add_p())\nConfidence intervals\nRegression summaries (tbl_regression())\nInline reporting\n\nHighly customizable using tidyselect syntax.\n\nUses gt under the hood for the table rendering.\nThink of it as: A reporting-focused abstraction layer that does 90% of the formatting and logic for you."
+  },
+  {
+    "objectID": "FinalRJS.html#inline-reporting-with-inline_text",
+    "href": "FinalRJS.html#inline-reporting-with-inline_text",
+    "title": "Summary Tables with gtsummary",
+    "section": "Inline Reporting with inline_text()",
+    "text": "Inline Reporting with inline_text()\n\nYou can pull values directly from a table into your R Markdown text — like odds ratios, p-values, or confidence intervals.\nExample:\n\"The odds ratio for age isr inline_text(tbl, variable = “age”).\"\nKeeps your results synced automatically with your tables — no manual copy-paste needed!"
+  },
+  {
+    "objectID": "FinalRJS.html#formula-syntax-for-customizing-variables",
+    "href": "FinalRJS.html#formula-syntax-for-customizing-variables",
+    "title": "Summary Tables with gtsummary",
+    "section": "Formula Syntax for Customizing Variables",
+    "text": "Formula Syntax for Customizing Variables\n\nCustomize labels, types, stats, and digits using formula-like syntax (e.g., variable ~ value).\nSupports tidyselect helpers like all_continuous(), starts_with(\"age\"), etc.\nLets you target multiple variables with one line for streamlined styling."
+  },
+  {
+    "objectID": "FinalRJS.html#merge-and-stack-tables-easily-tbl_merge-tbl_stack",
+    "href": "FinalRJS.html#merge-and-stack-tables-easily-tbl_merge-tbl_stack",
+    "title": "Summary Tables with gtsummary",
+    "section": "Merge and Stack Tables Easily (tbl_merge(), tbl_stack())",
+    "text": "Merge and Stack Tables Easily (tbl_merge(), tbl_stack())\n\nCombine multiple tables:\n\nSide-by-side (e.g., univariable vs. multivariable regression)\nTop-to-bottom (e.g., adjusted vs. unadjusted estimates)\n\nHelps you build complex, publication-quality tables without breaking a sweat."
+  },
+  {
+    "objectID": "FinalRJS.html#gtsummary-chart",
+    "href": "FinalRJS.html#gtsummary-chart",
+    "title": "Summary Tables with gtsummary",
+    "section": "Gtsummary Chart",
+    "text": "Gtsummary Chart"
+  },
+  {
+    "objectID": "FinalRJS.html#the-p-value",
+    "href": "FinalRJS.html#the-p-value",
+    "title": "Summary Tables with gtsummary",
+    "section": "The P-Value:",
+    "text": "The P-Value:\nA p-value of 0.001 from the Chi-square test suggests that there is a statistically significant association between keyword intent and ranking position for productfolio.com. Considering that the p-value is much lower than 0.05, which is the commonly used significance level, we reject the null hypothesis that there is no relationship between keyword intent and position. Stated differently, certain keyword intent types (informational, commercial, etc.) meaningfully influence where Google search results rank websites. This means that some keywords may attract higher traffic than others for this domain niche, and this information can be used in future content planning or SEO."
+  },
+  {
+    "objectID": "FinalRJS.html#thank-you-very-much",
+    "href": "FinalRJS.html#thank-you-very-much",
+    "title": "Summary Tables with gtsummary",
+    "section": "Thank You Very Much",
+    "text": "Thank You Very Much"
+  },
+  {
+    "objectID": "FinalRJS.html#test-2",
+    "href": "FinalRJS.html#test-2",
+    "title": "Ricky Woznichak",
+    "section": "Test 2",
+    "text": "Test 2\nTest 3"
+  },
+  {
+    "objectID": "Woznichak,Richard-M08-Reflection Essay-gtsummary.html",
+    "href": "Woznichak,Richard-M08-Reflection Essay-gtsummary.html",
+    "title": "Summary Tables with gtsummary",
+    "section": "",
+    "text": "We can create a summary table and modify it for various statistical analyses using the {gtsummary} package.\n\n\n\nVersatile Output: Supports summary statistics, regression models, survival analysis, and more — all formatted beautifully.\nCustomizable: Easily change labels, statistics, and formatting without needing to manually tweak tables.\nPublication-Ready: Outputs clean, APA-style tables with minimal effort — ideal for reports, papers, and presentations.\nReproducibility: Tables are generated directly from your analysis pipeline, reducing the risk of transcription errors."
+  },
+  {
+    "objectID": "Woznichak,Richard-M08-Reflection Essay-gtsummary.html#why-gtsummary-matters",
+    "href": "Woznichak,Richard-M08-Reflection Essay-gtsummary.html#why-gtsummary-matters",
+    "title": "Summary Tables with gtsummary",
+    "section": "",
+    "text": "Versatile Output: Supports summary statistics, regression models, survival analysis, and more — all formatted beautifully.\nCustomizable: Easily change labels, statistics, and formatting without needing to manually tweak tables.\nPublication-Ready: Outputs clean, APA-style tables with minimal effort — ideal for reports, papers, and presentations.\nReproducibility: Tables are generated directly from your analysis pipeline, reducing the risk of transcription errors."
+  },
+  {
+    "objectID": "Woznichak,Richard-M08-Reflection Essay-gtsummary.html#how-it-can-help-us",
+    "href": "Woznichak,Richard-M08-Reflection Essay-gtsummary.html#how-it-can-help-us",
+    "title": "Summary Tables with gtsummary",
+    "section": "1.2 🎓📈 How It Can Help Us",
+    "text": "1.2 🎓📈 How It Can Help Us\n\nIn School:\n\nCreate polished tables for homework, theses, or presentations.\nSave time formatting — focus more on the analysis itself.\nImpress your professors with professional-grade outputs.\n\nIn Your Career:\n\nQuickly generate high-quality tables for client reports, internal documents, or academic publications.\nStreamline analysis workflows with reproducible and automated reporting.\nIntegrate with tools like Quarto, R Markdown, and Shiny apps for interactive or dynamic reporting."
+  },
+  {
+    "objectID": "Woznichak,Richard-M08-Reflection Essay-gtsummary.html#how-does-gtsummary-differ-from-gt-and-gtextras",
+    "href": "Woznichak,Richard-M08-Reflection Essay-gtsummary.html#how-does-gtsummary-differ-from-gt-and-gtextras",
+    "title": "Summary Tables with gtsummary",
+    "section": "2.1 How does gtsummary differ from gt and gtExtras?",
+    "text": "2.1 How does gtsummary differ from gt and gtExtras?"
+  },
+  {
+    "objectID": "Woznichak,Richard-M08-Reflection Essay-gtsummary.html#gt",
+    "href": "Woznichak,Richard-M08-Reflection Essay-gtsummary.html#gt",
+    "title": "Summary Tables with gtsummary",
+    "section": "2.2 gt",
+    "text": "2.2 gt\n\nPurpose: A core package for creating flexible and beautiful tables in R.\nStrength: Great for custom-designed tables from scratch, especially for presenting summary stats, formatted text, etc.\nUsage: You have to manually define your data transformations and table formatting.\nThink of it as: A powerful table engine, similar to ggplot2 but for tables."
+  },
+  {
+    "objectID": "Woznichak,Richard-M08-Reflection Essay-gtsummary.html#gtextras",
+    "href": "Woznichak,Richard-M08-Reflection Essay-gtsummary.html#gtextras",
+    "title": "Summary Tables with gtsummary",
+    "section": "2.3 gtExtras",
+    "text": "2.3 gtExtras\n\nPurpose: A set of helper functions that work on top of gt to make common formatting tasks easier.\nStrength: Adds shortcuts for enhancements like:\n\nHeatmaps\nSparklines\nFancy styling presets\n\nUsage: It extends gt and saves time on visual and layout improvements.\nThink of it as: Add-ons to style and beautify your gt tables quickly."
+  },
+  {
+    "objectID": "Woznichak,Richard-M08-Reflection Essay-gtsummary.html#gtsummary",
+    "href": "Woznichak,Richard-M08-Reflection Essay-gtsummary.html#gtsummary",
+    "title": "Summary Tables with gtsummary",
+    "section": "2.4 gtsummary",
+    "text": "2.4 gtsummary\n\nPurpose: Built specifically for statistical reporting and clinical-style summary tables.\nStrengths:\n\nAutomatically identifies variable types (continuous, categorical, dichotomous).\nBuilds “Table 1”-style summaries with a single line of code.\nEasily adds:\n\nP-values (add_p())\nConfidence intervals\nRegression summaries (tbl_regression())\nInline reporting\n\nHighly customizable using tidyselect syntax.\n\nUses gt under the hood for the table rendering.\nThink of it as: A reporting-focused abstraction layer that does 90% of the formatting and logic for you."
+  },
+  {
+    "objectID": "Woznichak,Richard-M08-Reflection Essay-gtsummary.html#inline-reporting-with-inline_text",
+    "href": "Woznichak,Richard-M08-Reflection Essay-gtsummary.html#inline-reporting-with-inline_text",
+    "title": "Summary Tables with gtsummary",
+    "section": "3.1 Inline Reporting with inline_text()",
+    "text": "3.1 Inline Reporting with inline_text()\n\nYou can pull values directly from a table into your R Markdown text — like odds ratios, p-values, or confidence intervals.\nExample:\n\"The odds ratio for age isr inline_text(tbl, variable = “age”).\"\nKeeps your results synced automatically with your tables — no manual copy-paste needed!"
+  },
+  {
+    "objectID": "Woznichak,Richard-M08-Reflection Essay-gtsummary.html#formula-syntax-for-customizing-variables",
+    "href": "Woznichak,Richard-M08-Reflection Essay-gtsummary.html#formula-syntax-for-customizing-variables",
+    "title": "Summary Tables with gtsummary",
+    "section": "3.2 Formula Syntax for Customizing Variables",
+    "text": "3.2 Formula Syntax for Customizing Variables\n\nCustomize labels, types, stats, and digits using formula-like syntax (e.g., variable ~ value).\nSupports tidyselect helpers like all_continuous(), starts_with(\"age\"), etc.\nLets you target multiple variables with one line for streamlined styling."
+  },
+  {
+    "objectID": "Woznichak,Richard-M08-Reflection Essay-gtsummary.html#merge-and-stack-tables-easily-tbl_merge-tbl_stack",
+    "href": "Woznichak,Richard-M08-Reflection Essay-gtsummary.html#merge-and-stack-tables-easily-tbl_merge-tbl_stack",
+    "title": "Summary Tables with gtsummary",
+    "section": "3.3 Merge and Stack Tables Easily (tbl_merge(), tbl_stack())",
+    "text": "3.3 Merge and Stack Tables Easily (tbl_merge(), tbl_stack())\n\nCombine multiple tables:\n\nSide-by-side (e.g., univariable vs. multivariable regression)\nTop-to-bottom (e.g., adjusted vs. unadjusted estimates)\n\nHelps you build complex, publication-quality tables without breaking a sweat."
+  },
+  {
+    "objectID": "Woznichak,Richard-M08-Reflection Essay-gtsummary.html#gtsummary-chart",
+    "href": "Woznichak,Richard-M08-Reflection Essay-gtsummary.html#gtsummary-chart",
+    "title": "Summary Tables with gtsummary",
+    "section": "4.1 Gtsummary Chart",
+    "text": "4.1 Gtsummary Chart"
+  },
+  {
+    "objectID": "Woznichak,Richard-M08-Reflection Essay-gtsummary.html#the-p-value",
+    "href": "Woznichak,Richard-M08-Reflection Essay-gtsummary.html#the-p-value",
+    "title": "Summary Tables with gtsummary",
+    "section": "4.2 The P-Value:",
+    "text": "4.2 The P-Value:\nA p-value of 0.001 from the Chi-square test suggests that there is a statistically significant association between keyword intent and ranking position for productfolio.com. Considering that the p-value is much lower than 0.05, which is the commonly used significance level, we reject the null hypothesis that there is no relationship between keyword intent and position. Stated differently, certain keyword intent types (informational, commercial, etc.) meaningfully influence where Google search results rank websites. This means that some keywords may attract higher traffic than others for this domain niche, and this information can be used in future content planning or SEO."
+  },
+  {
+    "objectID": "Woznichak,Richard-M08-Reflection Essay-gtsummary.html#thank-you-very-much",
+    "href": "Woznichak,Richard-M08-Reflection Essay-gtsummary.html#thank-you-very-much",
+    "title": "Summary Tables with gtsummary",
+    "section": "4.3 Thank You Very Much",
+    "text": "4.3 Thank You Very Much"
   }
 ]
