@@ -12,6 +12,8 @@ website:
         file: index.qmd
       - text: Marketing Analytics
         file: FinalDashboard.qmd
+      - text: My Best Friend
+        file: JimmyPics.qmd
    
        
       
