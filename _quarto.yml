@@ -8,7 +8,7 @@ website:
   navbar:
     background: "#050404"
     left:
-      - text: Home
+      - text: Resume
         file: index.qmd
       - text: Marketing Analytics
         file: FinalDashboard.qmd
